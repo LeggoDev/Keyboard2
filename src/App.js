@@ -33,7 +33,7 @@ const App = () => {
   return (
     <main>
       <textarea onClick={() => handleClick()} className="use-keyboard-input" cols="30" rows="10" onChange={() => setText(text)} value={text}></textarea>
-      <div className='keyboard", "keyboard--hidden'>
+      <div className='keyboard'>
         <article className='keyboard__keys'>
           <Fragment>
             {keyElementContainer}
